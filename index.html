@@ -8,22 +8,23 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Apply to be a tree planter</h1>
-    <p>Trees are one of the world's most precious renewable resources-we need your help to renew the ecosystem</p>
+  <header class="island-1-2 pad-t push-2">
+    <h1 class="pad-t-1-2">Apply to be a tree planter</h1>
+    <p class="intro mega">Trees are one of the world's most precious renewable resources-we need your help to renew the ecosystem</p>
   </header>
 
-  <form class="push-0" method="POST">
+  <form class="push island-1-2" method="POST">
 
-  <fieldset class="first">
-    <legend class="">Personal details</legend>
+  <fieldset class="push-2">
+    <legend class="mega push">Personal details</legend>
 
       <div class="push">
         <label for="name">Full name</label>
         <input id="name" name="name">
-        <p>Your full legal name, for insurance purposes, e.g. Elizbeth Bradley</p>
+        <small class="italic micro">Your full legal name, for insurance purposes, e.g. "Elizbeth Bradley".</small>
       </div>
 
       <div class="push">
@@ -53,28 +54,28 @@
       </select>
     </div>
 
-    <div class="">
+    <div class="push">
       <label for="email">Email</label>
       <input id="email" type="email" name="email">
     </div>
 
-    <div class="">
-      <label for="number">Phone number</label><p>(optional)</p>
-      <input id="number" type="number name="number>
+    <div class="push">
+      <label for="number">Phone number <small>(optional)</small></label>
+      <input id="number" type="number" name="number">
     </div>
-  <fieldset>
+  </fieldset>
 
-  <fieldset class="push-0">
-    <legend class="">Address</legend>
+  <fieldset class="push-2">
+    <legend class="mega push">Address</legend>
 
     <div class="push">
       <label for="address">Street Address</label>
-      <textarea id="address" name="address"></textarea>
+      <input id="address" name="address">
     </div>
 
     <div class="push">
       <label for="city">City</label>
-      <textarea id="city" name="city"></textarea>
+      <input id="city" name="city">
     </div>
 
     <div class="push">
@@ -98,112 +99,158 @@
 
     <div class="push">
       <label for="postal">Postal code</label>
-      <textarea id="postal" name="postal"></textarea>
-    </div>
+      <input id="postal" name="postal">
   </fieldset>
 
   <fieldset>
-    <legend class="">What activities are you interested in helping with?</legend>
+    <legend class="giga push">What activities are you interested in helping with?</legend>
 
     <div class="push">
-      <input id="holes" type="checkbox">
-      <label for="holes">Digging holes</label>
 
-      <input id="dirty" type="checkbox">
-      <label for="dirty">Getting dirty</label>
+      <div class="push-1-4">
+        <input id="holes" type="checkbox">
+        <label for="holes">Digging holes</label>
+      </div>
 
-      <input id="lifting" type="checkbox">
-      <label for="lifting">Lifting heavy objects</label>
+      <div class="push-1-4">
+        <input id="dirty" type="checkbox">
+        <label for="dirty">Getting dirty</label>
+      </div>
 
-      <input id="driving" type="checkbox">
-      <label for="driving">Driving people</label>
+      <div class="push-1-4">
+        <input id="lifting" type="checkbox">
+        <label for="lifting">Lifting heavy objects</label>
+      </div>
 
-      <input id="trasporting" type="checkbox">
-      <label for="transporting">Transporting trees</label>
+      <div class="push-1-4">
+        <input id="driving" type="checkbox">
+        <label for="driving">Driving people</label>
+      </div>
 
-      <input id="photos" type="checkbox">
-      <label for="photos">Taking photos</label>
+      <div class="push-1-4">
+        <input id="trasporting" type="checkbox">
+        <label for="transporting">Transporting trees</label>
+      </div>
 
-      <input id="publish" type="checkbox">
-      <label for="publish">Online publishing</label>
+      <div class="push-1-4">
+        <input id="photos" type="checkbox">
+        <label for="photos">Taking photos</label>
+      </div>
 
-      <input id="manage" type="checkbox">
-      <label for="manage">Managing People</label>
+      <div class="push-1-4">
+        <input id="publish" type="checkbox">
+        <label for="publish">Online publishing</label>
+      </div>
+
+      <div class="push-1-4">
+        <input id="manage" type="checkbox">
+        <label for="manage">Managing People</label>
+      </div>
+
     </div>
   </fieldset>
 
   <fieldset>
-    <legend class="">Do you have experience with the following?</legend>
+    <legend class="giga push">Do you have experience with the following?</legend>
 
     <div class="push">
-      <input id="shovels" type="checkbox">
-      <label for="shovels">Shovels</label>
 
-      <input id="gps" type="checkbox">
-      <label for="gps">Hand-held GPS</label>
+      <div class="push-1-4">
+        <input id="shovels" type="checkbox">
+        <label for="shovels">Shovels</label>
+      </div>
 
-      <input id="write" type="checkbox">
-      <label for="write">Writing & Blogging</label>
+      <div class="push-1-4">
+        <input id="gps" type="checkbox">
+        <label for="gps">Hand-held GPS</label>
+      </div>
 
-      <input id="photography" type="checkbox">
-      <label for="photography">Photography</label>
+      <div class="push-1-4">
+        <input id="write" type="checkbox">
+        <label for="write">Writing & Blogging</label>
+      </div>
 
-      <input id="climb" type="checkbox">
-      <label for="climb">Climbing</label>
+      <div class="push-1-4">
+        <input id="photography" type="checkbox">
+        <label for="photography">Photography</label>
+      </div>
 
-      <input id="bush" type="checkbox">
-      <label for="bush">Bush craft</label>
+      <div class="push-1-4">
+        <input id="climb" type="checkbox">
+        <label for="climb">Climbing</label>
+      </div>
 
-      <input id="atv" type="checkbox">
-      <label for="atv">ATVs</label>
+      <div class="push-1-4">
+        <input id="bush" type="checkbox">
+        <label for="bush">Bush craft</label>
+      </div>
 
-      <input id="ident" type="checkbox">
-      <label for="ident">Plant indentification</label>
+      <div class="push-1-4">
+        <input id="atv" type="checkbox">
+        <label for="atv">ATVs</label>
+      </div>
 
-      <input id="event" type="checkbox">
-      <label for="event">Special event planning</label>
+      <div class="push-1-4">
+        <input id="ident" type="checkbox">
+        <label for="ident">Plant indentification</label>
+      </div>
 
-      <input id="speak" type="checkbox">
-      <label for="speak">Speaking to groups</label>
+      <div class="push-1-4">
+        <input id="event" type="checkbox">
+        <label for="event">Special event planning</label>
+      </div>
+
+      <div class="push-1-4">
+        <input id="speak" type="checkbox">
+        <label for="speak">Speaking to groups</label>
+      </div>
+
     </div>
   </fieldset>
 
-  <fieldset>
-    <legend class="">Do you have a pick-up truck you'd be willing to use?</legend>
+  <fieldset class="push-2">
+    <legend class="giga push">Do you have a valid driver's license?</legend>
     <div>
-      <input id="yes" type="checkbox">
+      <input id="yes" type="radio">
       <label for="yes">Yes</label>
 
-      <input id="no" type="checkbox">
+      <input id="no" type="radio">
       <label for="no">No</label>
     </div>
   </fieldset>
 
-  <fieldset>
-    <legend class="">Do you have up-to-date first-aid certification?</legend>
+  <fieldset class="push-2">
+    <legend class="giga push">Do you have a pick-up truck you'd be willing to use?</legend>
     <div>
-      <input id="yes" type="checkbox">
+      <input id="yes" type="radio">
       <label for="yes">Yes</label>
 
-      <input id="no" type="checkbox">
+      <input id="no" type="radio">
       <label for="no">No</label>
     </div>
   </fieldset>
 
-  <fieldset class="push-0">
-    <legend class="">Please let us know any comments or questions you may have.</legend>
+  <fieldset class="push-2">
+    <legend class="giga push">Do you have up-to-date first-aid certification?</legend>
+    <div>
+      <input id="yes" type="radio">
+      <label for="yes">Yes</label>
+
+      <input id="no" type="radio">
+      <label for="no">No</label>
+    </div>
+  </fieldset>
+
+  <fieldset class="push-2">
+    <legend class="giga push">Please let us know any comments or questions you may have.</legend>
     <div class="push">
       <textarea id="comment" name="comment"></textarea>
     </div>
   </fieldset>
 
-  <div>
-    <a>Apply</a>
-  </div>
-
   <button type="submit">Apply</button>
 </form>
 
-<footer>
-  <p>Tree Hugger International Organization</p>
+<footer class="gutter-1-2 pad-t pad-b">
+  <small class="footer kilo">Tree Hugger International Organization</small>
 </footer>

@@ -1,3 +1,25 @@
+html {
+  font-family: 'Droid Serif', serif;
+}
+
+header {
+  background-color: #70ad55;
+}
+
+h1 {
+  color: white;
+  margin-bottom: .5em;
+}
+
+.intro {
+  color: white;
+  line-height: 1.5
+}
+
+fieldset {
+  border-bottom: 2px solid #70ad55;
+}
+
 label {
   display: block;
 }
@@ -6,9 +28,24 @@ input,
 select,
 textarea {
   width: 19em;
+  border-color: #6e8c62;
 }
 
-input,
- textarea {
+textarea {
+  height: 10em;
+}
 
- }
+button {
+  text-align: center;
+  padding: .5em 2em;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+footer {
+  background-color: #70ad55;
+}
+
+small.footer {
+  color: #fff;
+}
