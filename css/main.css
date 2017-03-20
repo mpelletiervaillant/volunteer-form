@@ -1,5 +1,5 @@
 html {
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
 }
 
 header {
@@ -13,7 +13,7 @@ h1 {
 
 .intro {
   color: white;
-  line-height: 1.5
+  line-height: 1.5;
 }
 
 fieldset {
@@ -39,7 +39,6 @@ button {
   text-align: center;
   padding: .5em 2em;
   font-size: 1.2em;
-  text-align: center;
 }
 
 footer {
