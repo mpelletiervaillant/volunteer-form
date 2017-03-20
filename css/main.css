@@ -16,17 +16,19 @@ h1 {
   line-height: 1.5;
 }
 
-fieldset {
-  border-bottom: 2px solid #70ad55;
-}
-
 label {
   display: block;
 }
 
 input,
 select,
-textarea {
+textarea,
+option {
+  width: 19em;
+  border-color: #70ad55;
+}
+
+hr {
   width: 19em;
   border-color: #6e8c62;
 }
@@ -39,6 +41,10 @@ button {
   text-align: center;
   padding: .5em 2em;
   font-size: 1.2em;
+}
+
+fieldset {
+  border: 0;
 }
 
 footer {
