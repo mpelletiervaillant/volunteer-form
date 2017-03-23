@@ -25,12 +25,16 @@ select,
 textarea,
 option {
   width: 19em;
-  border-color: #70ad55;
+  border-color: #6e8c62;
 }
 
 hr {
   width: 19em;
   border-color: #6e8c62;
+}
+
+.opt {
+  color: #70ad55;
 }
 
 textarea {
@@ -53,4 +57,27 @@ footer {
 
 small.footer {
   color: #fff;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .one {
+    width: 49.5%;
+    display: inline-block;
+  }
+
+  input,
+  select,
+  textarea,
+  option {
+    width: 15em;
+  }
+
+  textarea {
+    width: 97%;
+  }
+
+  hr {
+    width: 97%;
+  }
 }
